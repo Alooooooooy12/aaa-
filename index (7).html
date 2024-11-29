@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home">
+            <h1>مرحباً بك في لعبة الأسئلة</h1>
+            <p>اختبر معلوماتك في هذه اللعبة الممتعة!</p>
+            <button id="start-btn">ابدأ اللعب</button>
+        </div>
+
+        <div id="quiz" class="hidden">
+            <div id="question-container">
+                <h2 id="question">السؤال يظهر هنا</h2>
+                <div id="answers"></div>
+            </div>
+            <button id="next-btn" class="hidden">التالي</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h1>نتيجتك</h1>
+            <p id="score"></p>
+            <button id="restart-btn">إعادة اللعب</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
